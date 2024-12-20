@@ -1,0 +1,35 @@
+Nom,Pourcentage,Scrap,Fragments metal,HQ,Tissu,Bois,Engrenages,Tech,Corde
+CCTV Camera,60%,0,0,2,0,0,0,2,0
+CCTV Camera,40%,0,0,2,0,0,0,2,0
+Electric Fuse,60%,24,0,0,0,0,0,0,0
+Electric Fuse,40%,24,0,0,0,0,0,0,0
+Empty Propane Tank,60%,1,60,0,0,0,0,0,0
+Empty Propane Tank,40%,1,60,0,0,0,0,0,0
+Gears,60%,12,15,0,0,0,0,0,0
+Gears,40%,8,10,0,0,0,0,0,0
+Metal Blade,60%,2,18,0,0,0,0,0,0
+Metal Blade,40%,1,12,0,0,0,0,0,0
+Metal Pipe,60%,6,0,2,0,0,0,0,0
+Metal Pipe,40%,4,0,1,0,0,0,0,0
+Metal Spring,60%,12,0,2,0,0,0,0,0
+Metal Spring,40%,8,0,1,0,0,0,0,0
+Road Signs,60%,6,0,2,0,0,0,0,0
+Road Signs,40%,4,0,1,0,0,0,0,0
+Rope,60%,0,0,0,18,0,0,0,0
+Rope,40%,0,0,0,12,0,0,0,0
+Semi Auto Body,60%,18,90,2,0,0,0,0,0
+Semi Auto Body,40%,12,60,2,0,0,0,0,0
+Sewing Kit,60%,12,0,0,0,0,0,0,2
+Sewing Kit,40%,8,0,0,0,0,0,0,2
+Sheet Metal,60%,9,120,2,0,0,0,0,0
+Sheet Metal,40%,6,80,1,0,0,0,0,0
+Tarp,60%,0,0,0,60,0,0,0,0
+Tarp,40%,0,0,0,40,0,0,0,0
+Targeting Computer,60%,0,60,2,0,0,0,3,0
+Targeting Computer,40%,0,40,1,0,0,0,2,0
+Tech Trash,60%,24,0,2,0,0,0,0,0
+Tech Trash,40%,16,0,1,0,0,0,0,0
+Rifle Body,60%,30,0,2,0,0,0,0,0
+Rifle Body,40%,20,0,2,0,0,0,0,0
+SMG Body,60%,18,0,2,0,0,0,0,0
+SMG Body,40%,12,0,2,0,0,0,0,0
