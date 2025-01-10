@@ -3,6 +3,7 @@ import csv
 from urllib3 import request
 
 item = []
+raid = []
 x = 0
 
 
@@ -59,4 +60,36 @@ def get_a_special_item_recipe(item, pourcentage):
 
     return scrap, fragments_metal, hq, tissu, bois, engrenages, tech, corde
 
-request = get_a_special_item_recipe("Gears", "60%")
+
+with open('raid.csv', 'r') as csvfile:
+    reader = csv.DictReader(csvfile)
+    for row in reader:
+        raid.append(row['Nom'])
+
+
+def get_a_special_raid_structure(structure):
+    Cquatre = []
+    explo = []
+    satchel = []
+    beancan = []
+    rocket = []
+    HVrocket = []
+    grenade = []
+    mlrs = []
+    HEgrenade = []
+
+    with open('raid.csv', 'r') as csvfile:
+        reader = csv.DictReader(csvfile)
+        for row in reader:
+            if row['Nom'] == structure:
+                Cquatre.append(int(row['C4']))
+                explo.append(int(row['Explo 5.56']))
+                satchel.append(int(row['Satchel']))
+                beancan.append(int(row['Beancan']))
+                rocket.append(int(row['Rocket']))
+                HVrocket.append(int(row['High Velocity Rocket']))
+                grenade.append(int(row['F1 Grenade']))
+                mlrs.append(int(row['MLRS']))
+                HEgrenade.append(int(row['40mm HE Grenade']))
+
+    return  Cquatre, explo, satchel, beancan, rocket, HVrocket, grenade, mlrs, HEgrenade
